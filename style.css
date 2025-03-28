@@ -1,0 +1,86 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.section-one
+{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.section-one__content
+{
+    color: grey;
+}
+.section-two,
+.section-three,
+.section-four,
+.section-five{
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border: solid black 1px;
+
+}
+.section-two__image,
+.section-three__image,
+.section-four__image,
+.section-five__image
+{
+    width: 250px;
+    height: 300px;
+}
+.section-two__button,
+.section-three__button,
+.section-four__button,
+.section-five__button
+{
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 5px;
+    border: solid black;
+    text-align: center;
+}
+.section-two__description,
+.section-three__description,
+.section-four__description,
+.section-five__description
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section-six
+{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.section-six__name,
+.section-six__age,
+.section-six__email {
+    margin-top: 20px;
+    padding-left: 650px;
+}
+.section-six__button
+{
+    margin-top: 5px;
+    background-color: yellow;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
